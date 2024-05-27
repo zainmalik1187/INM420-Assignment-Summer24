@@ -1,0 +1,14 @@
+{
+  "name": "inm320-git-assignment",
+  "version": "1.0.0",
+  "description": "Seneca INM320 Git Assignment",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "Sachin Devdhar",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "main": "index.js"
+}
