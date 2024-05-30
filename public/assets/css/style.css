@@ -81,6 +81,27 @@ footer {
 
 }
 
+/* Jiwan */
+.Jiwanh {
+    font-family: 'Poppins', sans-serif;
+    color: goldenrod;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Jiwanclass {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Jiwanclass .Jiwan {
+    max-width: 30%;
+    height: auto;
+    margin: 20px;
+}
+
+
 @media (min-width: 650px) {
     main {
         display: flex;
