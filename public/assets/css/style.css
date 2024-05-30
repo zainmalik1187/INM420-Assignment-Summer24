@@ -33,23 +33,6 @@ p {
     margin-bottom: 20px;
 }
 
-/* Jiwan */
-
-.Jiwanh {
-    font-family: 'Poppins', sans-serif;
-    color: rgb(0, 0, 255);
-    font-size: 20px;
-    text-align: center;
-}
-
-.Jiwanclass {
-    max-width: 50%;
-    height: auto;
-    text-align: center;
-}
-
-/* Jiwan */
-
 main {
     background: #edf6f9;
     padding: 20px;
@@ -87,6 +70,29 @@ main div {
     border: 5px solid #e29578;
     border-radius: 10px;
 }
+
+
+/* Jiwan */
+
+.Jiwanh {
+    font-family: 'Poppins', sans-serif;
+    color: goldenrod;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Jiwanclass {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Jiwanclass .Jiwan {
+    max-width: 15%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 
 footer {
     font-weight: 600;
