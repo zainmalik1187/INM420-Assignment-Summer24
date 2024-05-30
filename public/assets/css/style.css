@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 body {
-    background: #155984;
+    background: #285d7e;
     color: #121015;
     font-family: "Raleway", sans-serif;
 }
@@ -21,7 +21,7 @@ header {
 
 header h1 {
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
 }
 h2{
     color: #e2f0c4;
@@ -50,10 +50,10 @@ main div {
 }
 .name {
     font-family: 'Pacifico', cursive;
-    font-size: 48px;
-    color: #e29578;
+    font-size: 46px;
+    color: #962186;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 .image-container {
     text-align: center;
