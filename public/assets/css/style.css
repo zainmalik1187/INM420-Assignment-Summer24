@@ -23,7 +23,8 @@ header h1 {
     font-weight: 300;
     font-size: 20px;
 }
-h2{
+
+h2 {
     color: #e2f0c4;
     font-size: 25px;
 }
@@ -31,6 +32,25 @@ h2{
 p {
     margin-bottom: 20px;
 }
+
+/* Jiwan */
+.Jiwanh {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+.Jiwanclass {
+    text-align: center;
+}
+
+.Jiwanclass .Jiwan2 {
+    max-width: 50%;
+    height: auto;
+}
+
+/* Jiwan */
 
 main {
     background: #edf6f9;
@@ -43,11 +63,13 @@ main div {
     margin-bottom: 10px;
     text-align: center;
 }
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .name {
     font-family: 'Pacifico', cursive;
     font-size: 46px;
@@ -55,6 +77,7 @@ main div {
     text-align: center;
     margin-top: 24px;
 }
+
 .image-container {
     text-align: center;
     margin-top: 20px;
