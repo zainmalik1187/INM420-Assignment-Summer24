@@ -81,6 +81,8 @@ footer {
 
 }
 
+/* ADD YOUR NAME HERE */
+
 /* Jiwan */
 .Jiwanh {
     font-family: 'Poppins', sans-serif;
@@ -117,8 +119,17 @@ footer {
     border: 5px solid #4d48d4;
     box-shadow: 6px 10px 8px #8f8ce9;
 }
-/* ADD YOUR NAME HERE */
 
+
+/* BEATRICE */
+.bea-img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+    background-size: cover;
+    background-image: url(../images/beatrice.jpg);
+}
 
 @media (min-width: 650px) {
     main {
