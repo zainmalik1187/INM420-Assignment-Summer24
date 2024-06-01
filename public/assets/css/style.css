@@ -178,6 +178,43 @@ footer {
     filter: drop-shadow(0 0 0.5rem rgb(224, 182, 249));
 }
 
+/* Thi Phuong Thao */
+.thaotrinh-containerr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #44916f;
+    padding: 20px;
+}
+#thaoimg {
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #b2d9c4; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#thaoimg:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.thaotrinh-containerr h1 {
+    font-family: 'lobster';
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #b2d9c4;
+    padding-top: 20px;
+    position: relative; 
+    overflow: hidden;
+}
+.thaotrinh-containerr h1:hover {
+    color: #80b9c8;
+}
+
 @media (min-width: 650px) {
     main {
         display: flex;
