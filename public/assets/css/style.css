@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Pacifico&family=Passion+One&family=Rubik:ital,wght@0,400;0,700;0,900;1,400&family=Schoolbell&family=Shrikhand&display=swap');
 
 body {
     background: #285d7e;
@@ -124,13 +125,14 @@ footer {
 
 
 /* BEATRICE */
-.bea-container{
+.bea-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #6b7f4c;
 }
-.bea-img{
+
+.bea-img {
     height: 250px;
     width: 250px;
     border-radius: 50%;
@@ -140,7 +142,7 @@ footer {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-.bea-container h1{
+.bea-container h1 {
     font-family: "Sacramento", cursive;
     font-weight: 800;
     font-style: normal;
@@ -186,20 +188,21 @@ footer {
     background-color: #44916f;
     padding: 20px;
 }
+
 #thaoimg {
     width: 100%;
     max-width: 270px;
     height: auto;
     border-radius: 50%;
     margin-bottom: 20px;
-    border: 5px solid #b2d9c4; 
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border: 5px solid #b2d9c4;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #thaoimg:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .thaotrinh-containerr h1 {
@@ -208,9 +211,10 @@ footer {
     font-weight: 700;
     color: #b2d9c4;
     padding-top: 20px;
-    position: relative; 
+    position: relative;
     overflow: hidden;
 }
+
 .thaotrinh-containerr h1:hover {
     color: #80b9c8;
 }
@@ -241,6 +245,30 @@ footer {
 .kitch:hover img {
     filter: drop-shadow(0 0 0.5rem orange);
 }
+
+/* WaiHangChong */
+
+.waihang {
+    background-image: url('../images/wai_bg.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#waiimg {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.waihang h1 {
+    transform: rotate(-8deg);
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: #4BA8B2;
+    font-style: italic;
+}
+
 
 @media (min-width: 650px) {
     main {

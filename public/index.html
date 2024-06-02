@@ -66,18 +66,41 @@
         <div class="thaotrinh-containerr">
             <img src="assets/images/ThaoTrinh.png" alt="Thao-img" id="thaoimg">
             <h1>Thao Trinh</h1>
-        </div> 
+        </div>
 
         <!-- Kristine Barreiro's Branch -->
         <div class="kitch">
             <img src="assets/images/Kristine.png" alt="Kitch's image" id="kitchimg">
             <h1>Kristine Barreiro</h1>
-        </div> 
+        </div>
+
+        <!-- Wai Hang Chong's Branch -->
+        <div class="waihang">
+            <img src="assets/images/WaiHang.gif" alt="WaiHang's image" id="waiimg">
+            <h1>Wai Hang</h1>
+        </div>
+
     </main>
 
     <footer>
         <p>&copy; 2024</p>
     </footer>
+    <!--Wai Hang Chong js code LOL-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const waiImg = document.getElementById('waiimg');
+            const originalSrc = 'assets/images/WaiHang.gif';
+            const hoverSrc = 'assets/images/WaiHangHover.gif';
+
+            waiImg.addEventListener('mouseover', function () {
+                waiImg.src = hoverSrc;
+            });
+
+            waiImg.addEventListener('mouseout', function () {
+                waiImg.src = originalSrc;
+            });
+        });
+    </script>
 </body>
 
 </html>
