@@ -6,6 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lugrasimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Pacifico&family=Passion+One&family=Rubik:ital,wght@0,400;0,700;0,900;1,400&family=Schoolbell&family=Shrikhand&display=swap');
 
 body {
     background: #285d7e;
@@ -23,7 +26,8 @@ header h1 {
     font-weight: 300;
     font-size: 20px;
 }
-h2{
+
+h2 {
     color: #e2f0c4;
     font-size: 25px;
 }
@@ -43,11 +47,13 @@ main div {
     margin-bottom: 10px;
     text-align: center;
 }
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 .name {
     font-family: 'Pacifico', cursive;
     font-size: 46px;
@@ -55,6 +61,7 @@ main div {
     text-align: center;
     margin-top: 24px;
 }
+
 .image-container {
     text-align: center;
     margin-top: 20px;
@@ -76,6 +83,218 @@ footer {
     border-top: 2px solid #e29578;
 
 }
+
+/* ADD YOUR NAME HERE */
+
+/* Jiwan */
+.Jiwanh {
+    font-family: 'Poppins', sans-serif;
+    color: goldenrod;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Jiwanclass {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Jiwanclass .Jiwan {
+    max-width: 30%;
+    height: auto;
+    margin: 20px;
+}
+
+/* JULIUS'S CSS */
+.julius-container h1 {
+    font-family: "Lexend", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px #2b279f;
+}
+
+#julius {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 5px solid #4d48d4;
+    box-shadow: 6px 10px 8px #8f8ce9;
+}
+
+
+/* BEATRICE */
+.bea-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6b7f4c;
+}
+
+.bea-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+    background-size: cover;
+    background-image: url(../images/beatrice.jpg);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.bea-container h1 {
+    font-family: "Sacramento", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    padding-top: 20px;
+    color: #fdf5ee;
+}
+
+/* KEZIA MELIANA */
+.kezi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #100229;
+    padding: 20px;
+}
+
+.kezi img {
+    width: 350px;
+}
+
+.kezi h2 {
+    font-family: "Caveat", cursive;
+    font-size: 50px;
+    font-weight: 800;
+    color: #a86fe2;
+    padding-top: 40px;
+}
+
+.kezi:hover img {
+    filter: drop-shadow(0 0 0.5rem yellow);
+}
+
+.kezi:hover h2 {
+    filter: drop-shadow(0 0 0.5rem rgb(224, 182, 249));
+}
+
+/* Thi Phuong Thao */
+.thaotrinh-containerr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #44916f;
+    padding: 20px;
+}
+
+#thaoimg {
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #b2d9c4;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#thaoimg:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.thaotrinh-containerr h1 {
+    font-family: 'lobster';
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #b2d9c4;
+    padding-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.thaotrinh-containerr h1:hover {
+    color: #80b9c8;
+}
+
+/* Kristine's CSS */
+.kitch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.kitchimg {
+    width: 3%;
+    /* border-radius: 50%; */
+    border: 5px solid #ff00e6;
+}
+
+.kitch h1 {
+    font-family: "Lexend", sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    color: #f94a05;
+    padding-top: 40px;
+}
+
+.kitch:hover img {
+    filter: drop-shadow(0 0 0.5rem orange);
+}
+
+/* WaiHangChong */
+
+.waihang {
+    background-image: url('../images/wai_bg.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#waiimg {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.waihang h1 {
+    transform: rotate(-8deg);
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: #4BA8B2;
+    font-style: italic;
+}
+
+
+/* Camille Macalanda CSS */
+.ceej {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#a86fe2;
+    padding: 20px;
+}
+
+.ceej h1 {
+    font-family: "Lobster", sans-serif;
+    font-size: 25px;
+    color:#e2cbf8;
+
+}
+
+#ceejimg {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 8px solid #e2cbf8;
+}
+
+
 
 @media (min-width: 650px) {
     main {
