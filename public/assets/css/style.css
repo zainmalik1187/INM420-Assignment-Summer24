@@ -462,6 +462,19 @@ footer {
     transform: scale(0.7);
 }
 
+/* sean */
+.sean {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px brown;
+}
+
+.seanimg {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
 @media (min-width: 650px) {
     main {
         display: flex;
