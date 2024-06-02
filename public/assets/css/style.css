@@ -375,6 +375,63 @@ footer {
     color: black;
 }
 
+/* mitchelle */
+.mitchelle {    
+    margin-bottom: 30px;    
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  .mitchelle .name{
+    color:#1b330d;
+  }  
+  .mitchelle .picture {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    z-index: 1;
+    position: relative;
+  }  
+  .mitchelle .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #25b01f;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+  }  
+  .mitchelle:hover .picture::before {
+    height: 100%;
+  }  
+  .mitchelle .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #25b01f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }  
+  .mitchelle .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+  }  
+  .mitchelle:hover .picture img {
+    box-shadow: 0 0 0 14px #f7f5ec;    
+    transform: scale(0.7);
+}
 
 @media (min-width: 650px) {
     main {
