@@ -352,6 +352,28 @@ footer {
     transition: all ease-in-out 0.8s;
 }
 
+/* Abraham's CSS */
+.abraham-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+}
+
+.abraham-image {
+    border-radius: 50%;
+    width: auto;
+    height: 210px;
+    border: 8px solid black;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.h1abraham {
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+}
 
 
 @media (min-width: 650px) {
