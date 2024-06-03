@@ -475,6 +475,21 @@ footer {
     border-radius: 50%;
 }
 
+/* LuthgardaFigueroa */
+
+.luth {
+    font-size: 40px;
+    color: rgb(167, 35, 35);
+    text-shadow: 2px 2px rgb(238, 210, 210);
+}
+
+.luthgarda {
+    height: 300px;
+    width: 300px;
+}
+
+
+
 @media (min-width: 650px) {
     main {
         display: flex;
@@ -490,3 +505,6 @@ footer {
         width: calc(33.3333% - 50px);
     }
 }
+
+
+
