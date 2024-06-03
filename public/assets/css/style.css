@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Pacifico&family=Passion+One&family=Rubik:ital,wght@0,400;0,700;0,900;1,400&family=Schoolbell&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 
 body {
     background: #285d7e;
@@ -489,6 +490,24 @@ footer {
     color: #25b01f;
 }
 
+/* jasmine */
+.jasmine {
+    background-color: #75061a;
+    border-radius: 50px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-optical-sizing: auto;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.jasmineb {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
 
 
 @media (min-width: 650px) {
