@@ -257,3 +257,40 @@ footer {
         width: calc(33.3333% - 50px);
     }
 }
+
+/* Kelly Eseigbe */
+.Kelly-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #44916f;
+    padding: 20px;
+}
+#kellyjpg {
+    width: 100%;
+    max-width: 100px; /* Reduced the max-width */
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #b2d9c4; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#kellyjpg {
+    transform: scale(1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.Kelly-container h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #b2d9c4;
+    padding-top: 20px;
+    position: relative; 
+    overflow: hidden;
+}
+.Kelly-container h1:hover {
+    color: #80b9c8;
+}  
