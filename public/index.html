@@ -15,9 +15,13 @@
     <!-- Condensed all the google fonts link to a single link -->
     <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:opsz@6..96&family=Inter:wght@300;500&family=Playfair+Display:wght@400;900&family=Dela+Gothic+One&family=Tourney:wght@300&family=Rowdies:wght@300&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Protest+Riot&family=EB+Garamond:ital,wght@0,600;1,400;1,500;1,600&family=Caveat:wght@400..700&family=Honk&family=Outfit:wght@100..900&family=Glass+Antiqua&family=Great+Vibes&family=Honk&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:opsz@6..96&family=Inter:wght@300;500&family=Playfair+Display:wght@400;900&family=Dela+Gothic+One&family=Tourney:wght@300&family=Rowdies:wght@300&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Protest+Riot&family=EB+Garamond:ital,wght@0,600;1,400;1,500;1,600&family=Caveat:wght@400..700&family=Honk&family=Outfit:wght@100..900&family=Glass+Antiqua&family=Great+Vibes&family=Honk&display&family=Danfo&family=Jersey+10+Charted&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/vld6fnn.css">
+    
+
+<link href="https://fonts.googleapis.com/css2?family=Danfo&display=swap" rel="stylesheet">
+
 
     <!-- fontshare cdn -->
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400&f[]=nippo@300,400&display=swap"
@@ -34,8 +38,14 @@
     </header>
 
     <main>
+        <!-- Michae's Branch  -->
+        <div class="Michael-container">
+            <h1 class="name">Michael-container's-branch</h1>
+            <img src="public\assets\images\michael.jpg" alt="Image">
+        </div>
+
         <div class="image-container">
-            <h1 class="name">Ella</h1>
+            <h1 class="name">Ella's-branch</h1>
             <img src="public\assets\images\Ella.jpg" alt="Image">
         </div>
 
@@ -66,7 +76,7 @@
         <div class="thaotrinh-containerr">
             <img src="assets/images/ThaoTrinh.png" alt="Thao-img" id="thaoimg">
             <h1>Thao Trinh</h1>
-        </div> 
+        </div>
 
         <!-- Kristine Barreiro's Branch -->
         <div class="kitch">
@@ -83,11 +93,88 @@
         </div> 
 
 
+        </div>
+
+        <!-- Wai Hang Chong's Branch -->
+        <div class="waihang">
+            <img src="assets/images/WaiHang.gif" alt="WaiHang's image" id="waiimg">
+            <h1>Wai Hang</h1>
+        </div>
+
+        <!-- Camille Macalanda's Branch -->
+        <div class="ceej">
+            <img src="assets/images/Camille.jpg" alt="Camille's image" id="ceejimg">
+            <h1>Camille Macalanda</h1>
+        </div>
+
+        <!-- Joy Abrazado's Branch -->
+
+        <div class="joy">
+            <img src="assets/images/joy.jpeg" alt="Joy's image" id="joyimg">
+            <h1>Joy Abrazado</h1>
+        </div>
+
+        <!-- Abraham Cruz's Branch -->
+        <div class="abraham-container">
+            <img class="abraham-image" src="assets/images/Abraham.jpg" alt="abraham's image">
+            <h1 class="h1abraham">Abraham Cruz</h1>
+        </div>
+
+        <!-- Mitchelle Mora -->
+        <div class="mitchelle">
+            <div class="picture">
+                <img class="img-fluid" src="assets/images/mitchelle.jpg" alt="mitchelle-photo">
+            </div>            
+            <h3 class="name">Mitchelle Mora</h3>                  
+        </div>
+
+        <!-- Qin Xu's Branch -->
+        <div class="qin">
+            <img src="assets/images/qin.png" alt="qinimage" id="qinimage">
+            <h1>Qin Xu</h1>
+        </div>
+
+         <!-- Jasmine's Branch -->
+         <div class="jasmine">
+            <img src="assets/images/Jasmine.jpg" alt="jasminesimage" class="jasmineb"/>
+            <h1>Jasmine Boateng</h1>
+        </div>
+        
+        <!-- Sean Tan's Branch -->
+        <div class="sean">
+            <img src="assets/images/SeanIMAGE.jpg" alt="seanimage" class="seanimg"/>
+            <h1>Sean Tan</h1>
+        </div>
+
+         <!-- Luthgarda Figueroa's Branch -->
+         <div class="luth">
+            <img src="assets/images/Luthgarda.png" alt="luth's image" id="luthgarda">
+            <h1>Luthgarda Figueroa</h1>
+        </div>
+
+       
+
     </main>
 
     <footer>
         <p>&copy; 2024</p>
     </footer>
+    <!--Wai Hang Chong js code LOL-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const waiImg = document.getElementById('waiimg');
+            const originalSrc = 'assets/images/WaiHang.gif';
+            const hoverSrc = 'assets/images/WaiHangHover.gif';
+
+            waiImg.addEventListener('mouseover', function () {
+                waiImg.src = hoverSrc;
+            });
+
+            waiImg.addEventListener('mouseout', function () {
+                waiImg.src = originalSrc;
+            });
+        });
+    </script>
 </body>
 
 </html>
