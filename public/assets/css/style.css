@@ -545,6 +545,26 @@ footer {
     transform: rotate(360deg); 
 }
 
+/* Vimbai Chikoore */
+.vimbaiChikoore h1{
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 60px;
+    color: #BA2D0B;
+}
+
+.vimbaiChikoore{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+#vimbai{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
 @media (min-width: 650px) {
     main {
         display: flex;
