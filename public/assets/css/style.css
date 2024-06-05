@@ -10,6 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Pacifico&family=Passion+One&family=Rubik:ital,wght@0,400;0,700;0,900;1,400&family=Schoolbell&family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
 
 body {
     background: #285d7e;
@@ -564,6 +565,54 @@ footer {
     width: 300px;
     border-radius: 50%;
 }
+
+/* Zain Malik's CSS */
+.zain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    height: 100%;
+}
+
+.zain img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 20%;
+    margin-bottom: 20px;
+    border: 2px solid #d4af37;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.zain h1 {
+    font-family: 'Seymour One';
+    font-size: 30px;
+    color: #d4af37;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.zain:hover {
+    background-color: #000000;
+}
+
+.zain:hover img {
+    transform: scale(1.05);
+}
+
+.zain:hover h1 {
+    transform: scale(1.05);
+    text-shadow: 0 0 10px #d4af37;
+}
+/* End of Zain Malik CSS */
+
+
 
 @media (min-width: 650px) {
     main {
